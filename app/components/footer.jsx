@@ -12,7 +12,14 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Developer Portfolioo by <Link target="_blank" href="https://www.linkedin.com/in/abu-said-bd/" className="text-[#16f2b3]">Abu Said</Link>
+            © Developer Portfolio by{" "}
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/manul-bandara-a34a40217/"
+              className="text-[#16f2b3]"
+            >
+              Manul Bandara
+            </Link>
           </p>
           <div className="flex items-center gap-5">
             <Link
@@ -34,7 +41,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 
